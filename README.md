@@ -1,15 +1,23 @@
 🧬 Blood Group Detection Using Fingerprint
-This project aims to predict a person's blood group using fingerprint images through deep learning models. Instead of traditional blood tests, this approach offers a non-invasive and fast method by analyzing fingerprint patterns. It is designed for potential use in medical emergencies, forensic investigations, and identity verification.
+About the Project
+This project focuses on predicting a person's blood group from their fingerprint image using deep learning techniques. It offers a non-invasive, quick, and innovative method compared to traditional blood tests, with potential applications in healthcare, forensics, and identity verification.
 
-Models Used:
+🧠 Models Used
+AlexNet (alexnet.py)
 
-AlexNet (implemented in alexnet.py)
+LeNet (lenet.py)
 
-LeNet (implemented in lenet.py)
+MobileNetV2 (mobilevnet.py)
 
-MobileNetV2 (implemented in mobilevnet.py)
+ResNet (Resnet.ipynb)
 
-ResNet (implemented in Resnet.ipynb)
+Among these, ResNet demonstrated the best overall performance based on evaluation results.
 
-Among these, ResNet achieved the best performance in terms of accuracy and reliability.
+🚀 Highlights
+Fine-tuning with transfer learning
 
+Optimizers: Adam, SGD
+
+Learning rate scheduling and early stopping to avoid overfitting
+
+⭐ Feel free to explore the code and contribute!
